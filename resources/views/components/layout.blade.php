@@ -8,9 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $title }}</title>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head> 
+</head>
 <style>
     body{
+        display: block;
+        margin: 15px;
         background-color: #1c3056;
         color: white;
         font-family: Arial, sans-serif;
@@ -21,9 +23,8 @@
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
-        <a href="/formtest">Form Test</a>
-    </nav>
+        <a href="/formtest">FormTest</a>
 {{ $slot }}
-
+    </nav>
 </body>
 </html>
